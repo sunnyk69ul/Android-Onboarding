@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534441489993",
+    "firebase_url": "https://bluelogin-c8b3d.firebaseio.com",
+    "project_id": "bluelogin-c8b3d",
+    "storage_bucket": "bluelogin-c8b3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534441489993:android:c8a9aac604858e74",
+        "android_client_info": {
+          "package_name": "com.example.sanket.newapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534441489993-29qq4kht3s9falehhonsqvpmp3s035j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanket.newapplication",
+            "certificate_hash": "2358bc28593d69d6c4cc03c06b6e64f4d59b9265"
+          }
+        },
+        {
+          "client_id": "534441489993-akci4kk148lt65v2eaqfm26sa9ddtdpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC1AelhLbRrgP-Q3UMP9SZNvaHhuFZXxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534441489993-akci4kk148lt65v2eaqfm26sa9ddtdpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
