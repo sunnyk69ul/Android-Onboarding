@@ -15,7 +15,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 
-public class SecondScreen extends FragmentActivity {
+public class SecondScreen extends FragmentActivity
+        implements SecondScreenListFragment.ListItemInteractionInterface {
 
 
     private Button fragmentToggleButton;
@@ -107,5 +108,9 @@ public class SecondScreen extends FragmentActivity {
             public void onCancelled(DatabaseError databaseError) {
             }
         });
+    }
+
+    public void profileListItemClicked(String name, Integer imageID) {
+        toggleFragment(CurrentFragment.value);
     }
 }
